@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i data-lucide="code"></i>
+                <h1>John Doe</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I'm a passionate web developer creating beautiful and functional websites</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80" alt="John Doe">
+                <div>
+                    <p>Hi, I'm John Doe, a web developer with 5 years of experience in creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript, with a passion for creating responsive and user-friendly web applications.</p>
+                    <p>When I'm not coding, you can find me hiking in the mountains or experimenting with new recipes in the kitchen. I'm always eager to learn new technologies and take on challenging projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container" id="skills-container"></div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid" id="projects-container"></div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="contact-buttons">
+                <a href="mailto:john.doe@example.com" class="btn btn-primary">
+                    <i data-lucide="mail"></i> Email
+                </a>
+                <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" class="btn btn-github">
+                    <i data-lucide="github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin">
+                    <i data-lucide="linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
